@@ -6,8 +6,7 @@ public class Product {
     private String category;
     private double price;
     private int quantity;
-
-    // Constructor
+    
     public Product(String sku, String name, String category, double price, int quantity) {
         this.sku = sku;
         this.name = name;
@@ -16,7 +15,6 @@ public class Product {
         this.quantity = quantity;
     }
 
-    // Getters and Setters
     public String getSku() {
         return sku;
     }
